@@ -1,6 +1,6 @@
 # Neuro myKakuritsu Research Code with PyTorch
 
-This repo is a fork of https://github.com/UEFI-code/Neuro\_myKakuritsu, but NO LFS will upload because we have No Money to pay for LFS quato...
+This repo is a fork of https://github.com/UEFI-code/Neuro_myKakuritsu, but NO LFS will upload because we have No Money to pay for LFS quato...
 
 However, we will try to upload the pth files to Asset.
 
