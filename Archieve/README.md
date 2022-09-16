@@ -2,6 +2,8 @@
 
 This folder contains archieved experiments.
 
+However because of No LFS uploaded, so you need to found pth files in my [Google Drive](https://drive.google.com/drive/folders/1J2_FkFKFnkagXT4x3rEZagRy-eK4HX8w?usp=sharing)
+
 You can copy the py files and pth file into project's root folder(Replace) to test.
 
 ## ResNet152\_K
