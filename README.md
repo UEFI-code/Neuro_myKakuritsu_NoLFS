@@ -10,11 +10,19 @@ You may heard of [Dropout](https://jmlr.org/papers/v15/srivastava14a.html) which
 
 While, the author thought the neuro cells died in brain is useful, because it make neuros have ability to random cooperation and can prevent overfitting during learning.
 
-We think currently computers can only simulate fewer neuros, the random death of neuros also cause serious memory lossing, makes convergence harder. The key reason that cause overfit is dataset's problem, enhance the dataset is the best way, but improving dataset is hard work. 
+We think the random death of neuros in fully-connected network cause serious memory lossing because one cell's death effect all cell's input behind, makes convergence harder. Especialy, the 50% of death possibly that Dropout's proposer suggested during training, which seams like training an Alzheimer's disease / Cerebral infarction one. 
 
-To increasing the Neuro Network's performance with limited dataset, We can increase the single neuro level Divergent ability, with myKakuritsu Activation.
+Miracly, the performance of Network resumed obviously when turn off Dropout during evaluating. Out of our curiosity, if you train the Alzheimer's disease / Cerebral infarction one something, will they mastered the knowledges & skills even better than normals one when they got illness recovered?
 
-Kakuritsu means probability in Japanese, instead of killing neuro cell, We let each synapse activation with a probability. This will make hidden layer's data Generalization during training but less memory lossing, maybe prevent overfitting better.
+Well, we are not sure if Alzheimer's disease / Cerebral infarction one's brain dropout the neuro cells like 'Dropout', which have reborn chance or permanency death, so still needs medical science research. And how about the Sleepy One?
+
+Anyway, if you keep Dropout during evaluating, you will get bad result!
+
+To avoid kill neuro cells like Dropout, we propose Kakuritsu Activation method. Kakuritsu means probability in Japanese, we just let each synapse activation with a probability (suggested 50%).
+
+Currently experiment on ImageNet 2012 showed our benefits, especially keep Kakuritsu p = 50% in evaluation performance 30.744% improvement than Dropout at Acc1, and 43.010% improvement at Acc5! That reflected our method improved the neuro cells random cooperation or de-dependence ability better than Dropout do.
+
+To see experiment details, go to [The Archieve](/Archieve) Page.
 
 Still Need more Experment to prove this guess.
 
