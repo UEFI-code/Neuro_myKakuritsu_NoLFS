@@ -20,7 +20,7 @@ Anyway, if you keep Dropout during evaluating, you will get bad result!
 
 To avoid kill neuro cells like Dropout, we propose Kakuritsu Activation method. Kakuritsu means probability in Japanese, we just let each synapse activation with a probability (suggested p = 50%).
 
-Currently experiment on ImageNet 2012 showed our benefits, especially keep Kakuritsu p = 50% in evaluation performance 30.744% improvement than Dropout at Acc1, and 43.010% improvement at Acc5! That reflected our method improved the neuro cells random cooperation or de-dependence ability better than Dropout do.
+Currently experiment on ImageNet 2012 showed our benefits, especially keep p = 50% in evaluation our performance 30.744% improvement than Dropout at Acc1, and 43.010% improvement at Acc5! That reflected our method improved the neuro cells random cooperation or de-dependence ability better than Dropout do.
 
 To see experiment details, go to [The Archieve](/Archieve) Page.
 
