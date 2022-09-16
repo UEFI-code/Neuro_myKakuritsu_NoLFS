@@ -2,7 +2,7 @@
 
 This repo is a fork of https://github.com/UEFI-code/Neuro_myKakuritsu, but NO LFS will upload because we have No Money to pay for LFS quato...
 
-However, we will try to upload the pth files to Asset.
+However, we will try to upload the Archieved pth files to [Google Drive](https://drive.google.com/drive/folders/1J2_FkFKFnkagXT4x3rEZagRy-eK4HX8w?usp=sharing).
 
 ## Idea
 
